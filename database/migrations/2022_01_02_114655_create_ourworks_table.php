@@ -16,9 +16,9 @@ class CreateOurworksTable extends Migration {
 		Schema::create('ourworks', function(Blueprint $table)
 		{
 			$table->integer('id', true);
-			$table->string('img', 1000);
-			$table->string('work_name', 1000);
-			$table->timestamps(10);
+			$table->string('img', 500);
+			$table->string('work_name', 500);
+			$table->timestamps(6);
 		});
 	}
 

@@ -17,10 +17,10 @@ class CreateServicesTable extends Migration {
 		{
 			$table->integer('id', true);
 			$table->string('name_ar')->nullable();
-			$table->string('content_ar', 1000)->nullable();
+			$table->string('content_ar', 500)->nullable();
 			$table->string('name_en')->nullable();
-			$table->string('content_en', 1000)->nullable();
-			$table->timestamps(10);
+			$table->string('content_en', 500)->nullable();
+			$table->timestamps(6);
 		});
 	}
 

@@ -16,11 +16,11 @@ class CreateFeedbackTable extends Migration {
 		Schema::create('feedback', function(Blueprint $table)
 		{
 			$table->integer('id', true);
-			$table->string('name', 1000)->nullable();
-			$table->string('img', 1000)->nullable();
-			$table->string('job', 1000)->nullable();
-			$table->string('feedback', 1000)->nullable();
-			$table->timestamps(10);
+			$table->string('name', 500)->nullable();
+			$table->string('img', 500)->nullable();
+			$table->string('job', 500)->nullable();
+			$table->string('feedback', 500)->nullable();
+			$table->timestamps(6);
 		});
 	}
 
